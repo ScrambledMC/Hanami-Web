@@ -12,3 +12,9 @@
 h1 {
     text-align: center;
 }
+
+body
+{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
