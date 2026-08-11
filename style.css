@@ -1,3 +1,7 @@
+* {
+    text-align: center;
+}
+
 .title-bar {
     position: fixed;
     top: 0;
@@ -7,14 +11,34 @@
     background-color: pink;
     margin: 0;
     padding: 0;
+    z-index: 2904721098;
 }
 
-h1 {
-    text-align: center;
-}
-
-body
-{
+body {
     background-image: url("background.jpg");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.25em;
+}
+
+.content {
+    position: relative;
+    margin-top: 12%;
+    z-index: 1;
+}
+
+.info-box {
+    position: static;
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
 }
